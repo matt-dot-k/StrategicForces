@@ -1,4 +1,4 @@
-"","Year","Missile","Number","Range","CEP","Guidance","Warheads"
+"","Year","System","Number","Range","CEP","Guidance","Warheads"
 "1",1945,"Atlas",NA,"14,000km","1,400m","Radio Command","1"
 "2",1945,"Titan I",NA,"10,000km","1,400m","Radio Command","1"
 "3",1945,"Titan II",NA,"15,000km","900m","Inertial","1"
