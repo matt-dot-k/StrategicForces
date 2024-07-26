@@ -1,7 +1,6 @@
 # U.S. Strategic Forces
 
 ## About
----
 
 `StrategicForces` contains comprehensive data on United States strategic nuclear forces between
 1945 and 2023. In particular, it aims to illustrate changes in the composition of U.S. strategic force structure
@@ -17,7 +16,6 @@ The aim is to provide a user-friendly interface where those interested in nuclea
 can learn more about the evolution of U.S. nuclear forces throughout the last eight decades.
 
 ## Notes
----
 
 Counts on bomber deployments do not include dual capable aircraft (DCA).
 
@@ -26,7 +24,6 @@ Nonstrategic/tactical weapons are not included due to the ambiguity of "nonstrat
 Due to the lack of availability of data on specific warhead deployments, as well as inconsistencies in reporting on gravity bomb modifications, data on deployed gravity bombs only begins in 1998.
 
 ## References
----
 
 [1] Cochran, Thomas B., William M. Arkin, and Milton M. Hoenig. *Nuclear Weapons Databook*. Vol. 1. Ballinger Publishing Company, 1984.
 
@@ -36,4 +33,4 @@ Due to the lack of availability of data on specific warhead deployments, as well
 
 [4] Stumpf, David K. *Minuteman: A Technical History of the Missile that Defined American Nuclear Warfare*, Arkansas University Press, 2020.
 
-[5] Kristensen, Hans M. “Nuclear Notebook Archives.” Bulletin of the Atomic Scientists. https://thebulletin.org/nuclear-risk/nuclear-weapons/nuclear-notebook/.
+[5] Kristensen, Hans M. “Nuclear Notebook Archives.” Bulletin of the Atomic Scientists. <https://thebulletin.org/nuclear-risk/nuclear-weapons/nuclear-notebook/>
