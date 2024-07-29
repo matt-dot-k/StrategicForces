@@ -102,8 +102,7 @@ ui <- page_navbar(
                         p(tags$b("Click on an arms control treaty to view some info about the treaty"))),
                         card(
                             style = "height: 260px",
-                            htmlOutput("treatyInfo")))
-                )
+                            htmlOutput("treatyInfo"))))
             )
         )
     ),
@@ -132,9 +131,6 @@ ui <- page_navbar(
         )
     )
 )
-    
-
-
 
 # Server logic
 server <- function(input, output, session) {
@@ -204,7 +200,8 @@ server <- function(input, output, session) {
     output$forcesTable <- renderDT({
         datatable(forceData() %>% 
             select(-X, -Info_1, -Info_2, -Info_3, -Info_4) %>%
-            replace(is.na(.), 0))
+            replace(is.na(.), 0)
+        )
     }, height = 720)
 
     # Get chart info
@@ -253,7 +250,8 @@ server <- function(input, output, session) {
                 filter(Year >= input$year_1[1] & Year <= input$year_1[2]),
             coordinfo = input$sys_click) %>%
             select(System, Info_1, Info_2, Info_3, Info_4) %>%
-            slice_head(n = 1))
+            slice_head(n = 1)
+        )
     })
 
     # Stockpiles tab --------
@@ -353,7 +351,6 @@ server <- function(input, output, session) {
 
     # Get arms treaty info
     output$treatyInfo <- renderPrint({
-        
         req(input$treaty_click)
         
         treaty_info_str <- function(click) {
@@ -434,7 +431,7 @@ server <- function(input, output, session) {
         req(input$facility_click)
 
         outfile <- paste0("./www/", nearPoints(facilityData(), coordinfo = input$facility_click)$Facility, ".jpg")
-
+        
         list(
             src = outfile, 
             height = "225px")
