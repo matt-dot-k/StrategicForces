@@ -13,6 +13,7 @@ strategicForces <- read.csv("./data/strategicForces.csv")
 nuclearStockpiles <- read.csv("./data/nuclearStockpiles.csv")
 nuclearFacilities <- read.csv("./data/nuclearFacilities.csv")
 
+# User interface layout
 ui <- page_navbar(
     title = "Strategic Nuclear Forces",
     id = "strategicForces",
@@ -131,8 +132,11 @@ ui <- page_navbar(
         )
     )
 )
+    
 
 
+
+# Server logic
 server <- function(input, output, session) {
 
     # Get data from UI settings --------
