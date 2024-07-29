@@ -1,5 +1,7 @@
 # U.S. Strategic Forces
 
+Find the dashboard [HERE](https://mattkielar.shinyapps.io/strategicforces)
+
 ## About
 
 `StrategicForces` contains comprehensive data on United States strategic nuclear forces between
@@ -10,10 +12,12 @@ by providing an illustrated breakdown of weapon deployments over time, including
 
 - Warheads associated with each weapons system in its respective triad leg
 
-- Nuclear stockpile inventories and nuclear tests
+- Nuclear stockpile inventories, nuclear tests, arms control agreements
+
+- Facilities of the nuclear weapons complex
 
 The aim is to provide a user-friendly interface where those interested in nuclear weapons and nuclear policy
-can learn more about the evolution of U.S. nuclear forces throughout the last eight decades.
+can learn more about the evolution of U.S. nuclear forces and arms control throughout the last eight decades.
 
 ## Notes
 
@@ -34,3 +38,5 @@ Due to the lack of availability of data on specific warhead deployments, as well
 [4] Stumpf, David K. *Minuteman: A Technical History of the Missile that Defined American Nuclear Warfare*, Arkansas University Press, 2020.
 
 [5] Kristensen, Hans M. “Nuclear Notebook Archives.” Bulletin of the Atomic Scientists. <https://thebulletin.org/nuclear-risk/nuclear-weapons/nuclear-notebook/>
+
+[6] Office of Enterprise Assessments. "DOE Site List." Department of Energy. <https://www.energy.gov/ea/ea-information-doe-site/>
