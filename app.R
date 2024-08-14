@@ -1,9 +1,9 @@
-require(shiny)
-require(bslib)
-require(tidyverse)
-require(ggthemr)
-require(DT)
-require(maps)
+library(shiny)
+library(bslib)
+library(tidyverse)
+library(ggthemr)
+library(DT)
+library(maps)
 
 ggthemr("fresh")
 source("theme.R")
@@ -431,7 +431,7 @@ server <- function(input, output, session) {
         req(input$facility_click)
 
         outfile <- paste0("./www/", nearPoints(facilityData(), coordinfo = input$facility_click)$Facility, ".jpg")
-        
+
         list(
             src = outfile, 
             height = "225px")
