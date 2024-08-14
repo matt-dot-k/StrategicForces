@@ -9,7 +9,7 @@ ggthemr("fresh")
 source("theme.R")
 
 # Load data --------
-strategicForces <- read.csv("./data/strategicForces.csv")
+nuclearForces <- read.csv("./data/nuclearForces.csv")
 nuclearStockpiles <- read.csv("./data/nuclearStockpiles.csv")
 nuclearFacilities <- read.csv("./data/nuclearFacilities.csv")
 
@@ -34,8 +34,8 @@ ui <- page_navbar(
                         card_header(p(tags$h5("Data Options"))),
                         selectInput(
                             inputId = "triadLeg",
-                            label = "Select a triad leg",
-                            c("Air", "Land", "Sea")),
+                            label = "Select a weapons category",
+                            c("Air", "Land", "Sea", "Theater-Range")),
                         selectInput(
                             inputId = "deployment",
                             label = "Select a deployment",
@@ -141,7 +141,7 @@ server <- function(input, output, session) {
         req(input$deployment)
         req(input$year_1)
 
-        data <- strategicForces %>%
+        data <- nuclearForces %>%
             as_tibble() %>%
             filter(
                 Leg == input$triadLeg & Type == input$deployment) %>%
