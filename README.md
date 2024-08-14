@@ -1,10 +1,7 @@
 # U.S. Strategic Forces
 
-<<<<<<< HEAD
 ![image](./www/lgm-118.jpg)
 
-=======
->>>>>>> main
 Find the dashboard [HERE](https://mattkielar.shinyapps.io/strategicforces)
 
 ## About
@@ -15,11 +12,8 @@ Find the dashboard [HERE](https://mattkielar.shinyapps.io/strategicforces)
 
 - Warheads associated with each weapons system in its respective triad leg
 
-<<<<<<< HEAD
+
 - Nuclear stockpile inventories, nuclear tests, and arms control agreements
-=======
-- Nuclear stockpile inventories, nuclear tests, arms control agreements
->>>>>>> main
 
 - Facilities of the nuclear weapons complex
 
@@ -47,7 +41,7 @@ Some volumes of *The Military Balance* have inconsistencies in reporting the num
 Counts on bomber deployments do not include dual capable aircraft (DCA).
 
 Nonstrategic/tactical weapons are not included due to the ambiguity of "nonstrategic" as a weapons category. Data on deployed nonstrategic
-warheads per year (e.g. TLAM-N, ADM, artillery) is also sparse at best and difficult to obtain to reliable figures on.
+warheads per year (e.g. TLAM-N, ADM, artillery) is also sparse at best and difficult to obtain reliable figures on.
 
 Due to the lack of availability of data on relevant warhead deployments, as well as inconsistencies in reporting on gravity bomb modifications,
 data on deployed gravity bombs only begins in 1998.
@@ -62,7 +56,6 @@ Kristensen, Hans M. “Nuclear Notebook Archives.” Bulletin of the Atomic Scie
 
 Natural Resources Defense Council. "NRDC: Archive of Nuclear Data". <https://web.archive.org/web/20041027155120/http://www.nrdc.org///nuclear/nudb/datainx.asp>
 
-<<<<<<< HEAD
 Our World in Data. "Estimated Nuclear Warhead Stockpiles". <https://ourworldindata.org/grapher/nuclear-warhead-stockpiles>
 
 Our World in Data. "Nuclear Weapons Tests Per Year". <https://ourworldindata.org/grapher/number-of-nuclear-weapons-tests>
@@ -87,8 +80,3 @@ Harvey, John R., and John K. Warden. “Command and Control of U.S. Nuclear Forc
 edited by Charles Glaser, Austin Long, and Brian Radzinsky, 167–200. Brookings Institution, 2022.
 
 Office of Enterprise Assessments. "DOE Site List." Department of Energy. <https://www.energy.gov/ea/ea-information-doe-site/>
-=======
-[5] Kristensen, Hans M. “Nuclear Notebook Archives.” Bulletin of the Atomic Scientists. <https://thebulletin.org/nuclear-risk/nuclear-weapons/nuclear-notebook/>
-
-[6] Office of Enterprise Assessments. "DOE Site List." Department of Energy. <https://www.energy.gov/ea/ea-information-doe-site/>
->>>>>>> main
